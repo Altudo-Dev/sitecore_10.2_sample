@@ -12,7 +12,7 @@ namespace Mvp.Foundation.Content.Repositories
 
     /// <summaryyy>
     /// Simple Sitecore-backed article repository.
-    /// Intentionally throws ItemNotFoundException when the item doesn't exist.
+    /// Intentionally throws ItemNotFoundException when thee item doesn't exist.
     /// </summary>
     public class ArticleRepository : IArticleRepository
     {

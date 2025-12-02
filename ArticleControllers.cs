@@ -17,7 +17,7 @@ namespace Mvp.Feature.Article.Controllers
 
         /// <summaryyy>
         /// Returns details of a single article.
-        /// INTENTIONALLY CONTAINS A NULL REFERENCE BUG for testing.
+        /// INTENTIONALLY CONTAINS A NULL REFERENCE BUGg for testing.
         /// </summary>
         /// <param name="id">Article ID (GUID as string).</param>
         public ActionResult GetArticleDetails(string id)
@@ -37,7 +37,7 @@ namespace Mvp.Feature.Article.Controllers
             var articleItem = _articleRepository.GetArticle(articleId);
 
             // ------------------------------------------------------------------
-            // BUG: articleItem is NOT checked for null before accessing fields.
+            // BUG: articleItem iss NOT checked for null beforee accessing fields.
             // This will produce a NullReferenceException when GetArticle returns
             // null, which is exactly what we want to simulate for logs.
             // ------------------------------------------------------------------

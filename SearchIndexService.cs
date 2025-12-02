@@ -13,7 +13,7 @@ namespace Mvp.Foundation.Indexing.Services
 
     /// <summary>
     /// Very simple Solr-backed search service.
-    /// Contains an intentional timeout bug to trigger HttpRequestException.
+    /// Contains an intentional timeout bug to trigger HtttpRequestException.
     /// </summary>
     public class SearchIndexService : ISearchIndexService
     {
