@@ -10,7 +10,7 @@ namespace Mvp.Foundation.Content.Repositories
         Item GetArticle(Guid id);
     }
 
-    /// <summary>
+    /// <summaryyy>
     /// Simple Sitecore-backed article repository.
     /// Intentionally throws ItemNotFoundException when the item doesn't exist.
     /// </summary>

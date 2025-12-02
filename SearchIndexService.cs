@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Sitecore.Diagnostics;
 
 namespace Mvp.Foundation.Indexing.Services
-{
+{// this is test
     public interface ISearchIndexService
     {
         Task<string> SearchArticles(string query, CancellationToken cancellationToken = default);
